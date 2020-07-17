@@ -1,0 +1,52 @@
+{
+  "name": "node-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tslint": "tslint --project ./  --config ./tslint.json",
+    "tslint:fix": "tslint --project . --fix --config ./tslint.json",
+    "ts:compile": "tsc",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon"
+  },
+  "_moduleAliases": {
+    "@root": "src/",
+    "@config": "src/config",
+    "@helpers": "src/helpers",
+    "@controllers": "src/controllers",
+    "@models": "src/models",
+    "@routes": "src/routes",
+    "@views": "src/views"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.9.24",
+    "passport": "^0.4.1",
+    "slugify": "^1.4.4",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.2",
+    "@types/module-alias": "^2.0.0",
+    "@types/mongoose": "^5.7.32",
+    "@types/morgan": "^1.7.37",
+    "@types/yargs": "^15.0.3",
+    "dotenv-extended": "^2.7.1",
+    "morgan": "^1.9.1",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.7.5"
+  }
+}

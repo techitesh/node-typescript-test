@@ -1,0 +1,34 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": true,
+        "no-unused-expression": false,
+        "no-duplicate-imports": true,
+        "no-invalid-template-strings": true,
+        "only-arrow-functions": true,
+        "arrow-return-shorthand": true,
+        "no-irregular-whitespace": true,
+        "newline-before-return": true,
+        "max-line-length": [true, 120],
+        "variable-name": {
+            "options": [
+                "ban-keywords",
+                "allow-pascal-case",
+                "check-format"
+            ]
+        },
+        "no-unnecessary-callback-wrapper": true,
+        "file-name-casing": [true, "kebab-case"],
+        "class-name": true,
+        "max-classes-per-file": [true, 1],
+        "no-trailing-whitespace": [true, "always"],
+        "no-consecutive-blank-lines": true,
+        "completed-docs": [true, "enums", "functions", "methods"]
+
+    },
+    "rulesDirectory": []
+}

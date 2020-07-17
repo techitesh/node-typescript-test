@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"node-typescript-test.providers"},{"v":{"$numberInt":"2"},"unique":true,"key":{"name":{"$numberInt":"1"},"providerType":{"$numberInt":"1"}},"name":"name_1_providerType_1","ns":"node-typescript-test.providers","background":true}],"uuid":"b525072170854b7f9027a1f6f9c1d75d"}
